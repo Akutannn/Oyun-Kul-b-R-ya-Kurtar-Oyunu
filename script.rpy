@@ -25,7 +25,7 @@ label start:
 
     # These display lines of dialogue.
 
-    mc "Babamı gömdüm. Dün mü, evelsi mü, hatırlayamıyorum."
+    mc "Babamı daha yenigömdüm. Dün mü, evelsi gün mü, hatırlayamıyorum."
 
     mc "Dışarı çıkıp hayatıma devam etmek istiyorum ama yapabilir miyim, bilmiyorum."
 
@@ -35,9 +35,9 @@ label start:
     show mc normal
     menu:
 
-        "Direkt okula çık":
+        "Direkt okula git":
             jump okulgit
-        "Mutfağa git":
+        "Önce mutfağa git":
             jump mtfgit
     
     
@@ -46,7 +46,7 @@ label start:
 
     $ menu_flag = True
 
-    mc "Ay ay ay, sabahın köründe okula mı gidilir?"
+    mc "Öfff, sabahın köründe okula mı gidilir?"
     
 
     jump oyundevam
@@ -61,14 +61,14 @@ label start:
     mc "Bekle azıcık."
     "*Merdivenden inme sesleri*"
 
-    ana "Çok uzun sürdü, geç kalacaklsın! Haydi hızlıca yemeğini ye."
+    ana "Çok uzun sürdü, geç kalacaklsın! Haydi hızlıca kahvaltını yap."
     
-    mc "Anne daha yarım dakika falan var, rahat ol."
+    mc "Anne daha yarım saat falan var, rahat ol."
 
-    ana "Ya sen yemeğini bitirene kadar çoktan yarım saat geçmiş olacak hadi! "
+    ana "Ya sen yemeğini bitirene kadar çoktan yarım saat geçmiş olacak, hadi! "
 
-    "Ah, zavallı annem."
-    "Nasıl kocasının cenazesinden birkaç gün sonra bu kadar enerjik olabiliyorsun."
+    "Ah, benim zavallı ama güçlü annem."
+    "Nasıl kocanın cenazesinden birkaç gün sonra bu kadar enerjik olabiliyorsun?"
     "Bazenleri sana gerçekten hayran kalıyorum"
 
     ana "Oğlum boş gözlerle bakmayı kes, hızlıca bitir şu yemeğini!"
@@ -79,7 +79,7 @@ label start:
 
     ana "Afiyet olsun sana da civcivim."
 
-    "Normalde 'civcimim' demesini sevmem lakin bu gün sanırım laf etmeyeceğim"
+    "Normalde 'civcimim' demesini sevmem lakin bu gün laf etmeyeceğim sanırım."
 
     "*Ayakkabı giyme sesleri*"
 
