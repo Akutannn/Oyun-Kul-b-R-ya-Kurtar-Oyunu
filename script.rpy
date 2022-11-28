@@ -25,7 +25,7 @@ label start:
 
     # These display lines of dialogue.
 
-    mc "Babamı daha yenigömdüm. Dün mü, evelsi gün mü, hatırlayamıyorum."
+    mc "Babamı daha yeni gömdüm. Dün mü, evelsi gün mü, hatırlayamıyorum."
 
     mc "Dışarı çıkıp hayatıma devam etmek istiyorum ama yapabilir miyim, bilmiyorum."
 
