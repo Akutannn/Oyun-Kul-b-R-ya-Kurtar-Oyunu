@@ -25,19 +25,19 @@ label start:
 
     # These display lines of dialogue.
 
-    mc "Babamı daha yeni gömdüm. Dün mü, evelsi gün mü, hatırlayamıyorum."
+    mc "Babamı gömdüm. Dün mü, evelsi mü, hatırlayamıyorum."
 
     mc "Dışarı çıkıp hayatıma devam etmek istiyorum ama yapabilir miyim, bilmiyorum."
 
     mc "Hayat acımasız, bu yüzden eğer tanrı varsa bu tanrıya inanmayı reddediyorum."
     # This ends the game.
-
+     
     show mc normal
     menu:
 
-        "Direkt okula git":
+        "Direkt okula çık":
             jump okulgit
-        "Önce mutfağa git":
+        "Mutfağa git":
             jump mtfgit
     
     
@@ -46,7 +46,7 @@ label start:
 
     $ menu_flag = True
 
-    mc "Öfff, sabahın köründe okula mı gidilir?"
+    mc "Ay ay ay, sabahın köründe okula mı gidilir?"
     
 
     jump oyundevam
@@ -61,14 +61,14 @@ label start:
     mc "Bekle azıcık."
     "*Merdivenden inme sesleri*"
 
-    ana "Çok uzun sürdü, geç kalacaklsın! Haydi hızlıca kahvaltını yap."
+    ana "Çok uzun sürdü, geç kalacaklsın! Haydi hızlıca yemeğini ye."
     
     mc "Anne daha yarım saat falan var, rahat ol."
 
-    ana "Ya sen yemeğini bitirene kadar çoktan yarım saat geçmiş olacak, hadi! "
+    ana "Ya sen yemeğini bitirene kadar çoktan yarım saat geçmiş olacak hadi! "
 
-    "Ah, benim zavallı ama güçlü annem."
-    "Nasıl kocanın cenazesinden birkaç gün sonra bu kadar enerjik olabiliyorsun?"
+    "Ah, zavallı annem."
+    "Nasıl kocasının cenazesinden birkaç gün sonra bu kadar enerjik olabiliyorsun."
     "Bazenleri sana gerçekten hayran kalıyorum"
 
     ana "Oğlum boş gözlerle bakmayı kes, hızlıca bitir şu yemeğini!"
@@ -79,7 +79,7 @@ label start:
 
     ana "Afiyet olsun sana da civcivim."
 
-    "Normalde 'civcimim' demesini sevmem lakin bu gün laf etmeyeceğim sanırım."
+    "Normalde 'civcimim' demesini sevmem lakin bu gün sanırım laf etmeyeceğim"
 
     "*Ayakkabı giyme sesleri*"
 
@@ -93,5 +93,20 @@ label start:
     "*Bisiklet sesleri*"
     "*Bisiklet sesleri*"
     "*Bisiklet sesleri...*"
+
+    scene bg school
     mc "Bugün de şu lanet okula da geldim, ha."
+
+    "*Bisikletini park edip kilitler*"
+
+    play music "audio/ost3.mp3" loop
+
+    "*Bugatti sesi*"
+
+    "*Bisiklet ezilir*"
+
+    scene bg andrewtate
+
+    "*Arabadan bir adam çıkar*"
+
     return
